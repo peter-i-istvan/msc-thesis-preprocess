@@ -16,7 +16,13 @@ A brief explanation of the steps can be found below, with more details and backg
 
 ## Preprocessing steps
 
-The script uses data from the dHCP *anatomical pipeline* (sMRI) and *diffusional pipeline* (dMRI) in the NIfTI (.nii.gz) file format. In the flowcharts below, white rectangles denote input files as found in the data release, while blue rectangles denote intermediate results. The operations are illustrated as either rounded yellow (MRtrix) or green (FSL) rectangles.
+The script uses data from the dHCP *anatomical pipeline* (sMRI) and *diffusional pipeline* (dMRI) in the NIfTI (.nii.gz) file format. An example for diffusional and structural MRI, along with the segmentation of the brain into functional regions can be seen below.
+
+![](imgs/dmri.png)
+![](imgs/smri.png)
+![](imgs/atlas.png)
+
+In the flowcharts below, white rectangles denote input files as found in the data release, while blue rectangles denote intermediate results. The operations are illustrated as either rounded yellow (MRtrix) or green (FSL) rectangles.
 
 ### Anatomical pipeline
 
